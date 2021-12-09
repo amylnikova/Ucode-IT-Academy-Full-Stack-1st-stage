@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Settings</h1>
+    <div class="main-container">
+        <div class="form">
+            <form class="form" action="#" method="GET">
+                <div class="form-item">
+                    <p>Typeface</p>
+                    <select name="typeface" id="typeface">
+                        <option selected value="acunimpro">Acunim Pro</option>
+                        <option value="comicsans">Comic Sans</option>
+                        <option disabled value="timesnewroman">Times New Roman</option>
+                    </select>
+                </div>
+                <div class="form-item dark">
+                    <span>Dark UI</span>
+                    <label class="switch">
+                        <input id="switch" name="switch" type="checkbox">
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="form-item">
+                    <p>Weight</p>
+                    <input class="green-checkmark" type="checkbox" id="regular" name="regular" value="regular">
+                    <label  for="regular">Regular</label>
+                    <input class="green-checkmark" type="checkbox" id="bold" name="bold" value="bold">
+                    <label for="bold">Bold</label>
+                </div>
+                <div class="form-item">
+                    <p>Color</p>
+                    <input class="roundcolor blue" type="checkbox" name="color" id="blue" value="yes">
+                    <label for="blue"></label>
+                    <input class="roundcolor green" type="checkbox" name="color" id="green" value="yes">
+                    <label for="green"></label>
+                    <input class="roundcolor pink" type="checkbox" name="color" id="pink" value="yes">
+                    <label for="pink"></label>
+                    <input class="roundcolor yellow" type="checkbox" name="color" id="yellow" value="yes">
+                    <label for="yellow"></label>
+                    <input checked class="roundcolor orange" type="checkbox" name="color" id="orange" value="yes">
+                    <label for="orange"></label>
+                </div>
+                <div class="form-item">
+                    <p>Size</p>
+                    <input type="range" name="size" id="size" min="0" max="10" step="1">
+                    <div class="size">
+                        <span class="small">A</span>
+                        <span class="big">A</span>
+                    </div>
+                </div>
+            
+            </form>
+        </div>
+        <div class="img-bar">
+            <img src="assets/images/artistic-brush.png" alt="artistic-brush.png">
+            <br>
+            <img src="assets/images/user-icon.png" alt="user-icon.png">
+            <br>
+            <img src="assets/images/sms-speech-bubble.png" alt="sms-speech-bubble.png">
+            <br>
+            <img src="assets/images/computer-screen.png" alt="computer-screen.png">
+        </div>
+    </div>
+</body>
+</html>

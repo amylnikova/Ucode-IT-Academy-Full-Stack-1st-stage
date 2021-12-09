@@ -1,0 +1,62 @@
+body{
+    background-color: #fddf00;
+    color: #313131;
+    
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.content-title {
+    text-align: center;
+    
+    
+}
+.content-item {
+    background-color: whitesmoke;
+    margin: 20px;
+    padding: 10px;
+}
+.content-name {
+    font-weight: bold;
+}
+.content-description {
+    
+}
+/* For devises with screen 320px */
+[class*="content-"]{
+    
+    
+}
+.bold {
+    font-weight: bold;
+}
+
+.red {
+    background-color: red;
+    padding: 5px 5px;
+    color: white;
+}
+
+.border {
+    border: 3px solid red;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+/* For devises with screen 768px */
+@media only screen and (min-width: 768px) {
+    .wrapper {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/* For devises with screen 1024px */
+@media only screen and (min-width: 1024px) {
+    .wrapper {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .protocols {
+        grid-template-columns: 1fr 1fr;
+    }
+}

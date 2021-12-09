@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handbook</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="content-title">
+        <h1>Handbook</h1>
+        
+    </header>
+    <section class="content-title">
+        <h2>HTML</h2>
+    </section>
+    <div class="wrapper">
+        <section class="content-item">
+            <p class="content-name">h1</p>
+            <p class="content-description">The h1 to h6 tags are used to define HTML headings</p>
+            <br>
+            <p class="content-example">&lt;h1&gt;Title&lt;/h1&gt</p>
+            <h1>Title</h1>
+        </section>
+        <section class="content-item">
+            <p class="content-name">p</p>
+            <p class="content-description">The p tag defines a paragraph.</p>
+            <br>
+            <p class="content-example">&lt;p&gt;Paragraph&lt;/p&gt</p>
+            <p>Paragraph with some text</p>
+        </section>
+        <section class="content-item">
+            <p class="content-name">button</p>
+            <p class="content-description">The button tag defines a clickable button.</p>
+            <br>
+            <p class="content-example">&lt;button&gt;Button&lt;/button&gt</p>
+            <button>Button</button>
+        </section>
+        <section class="content-item">
+            <p class="content-name">input</p>
+            <p class="content-description">The input tag specifies an input field where the user can enter data.</p>
+            <br>
+            <p class="content-example">&lt;input atributes&gt;</p>
+            <p class="content-name">Your name</p>
+            <input type="text">
+            <p class="content-name">Question</p>
+            <p>
+                <input type="radio" name="answer" id="answer1">
+                <label for="answer1">answer</label>
+            </p>
+            <p>
+                <input type="radio" name="answer" id="answer1">
+                <label for="answer1">answer</label>
+            </p>
+            <p>
+                <input type="radio" name="answer" id="answer1">
+                <label for="answer1">answer</label>
+            </p>
+        </section>
+    </div>
+    <section class="content-title">
+        <h2>CSS</h2>
+    </section>
+    <div class="wrapper">
+        
+        <section class="content-item">
+            <p class="content-name">font-weight</p>
+            <p class="content-description">The font-weight property specifies the weight of a font.</p>
+            <br>
+            <p class="content-example">font-weight: bold;</p>
+            <p class="content-display bold">This text is bold.</p>
+        </section>
+        <section class="content-item">
+            <p class="content-name">background-color</p>
+            <p class="content-description">The background-color property specifies the background color of an element.</p>
+            <br>
+            <p class="content-example">background-color: yellow;</p>
+            <p class="content-display red">Text with red background</p>
+        </section>
+        <section class="content-item">
+            <p class="content-name">border</p>
+            <p class="content-description">The CSS border properties allow you to specify the style, width, and color of an element's border.</p>
+            <br>
+            <p class="content-example">border: 3px solid red;</p>
+            <p class="content-display border">Text with borders on all sides</p>
+        </section>
+        <section class="content-item">
+            <p class="content-name">text-transform</p>
+            <p class="content-description">The text-transform property is used to specify uppercase and lowercase letters in a text.</p>
+            <br>
+            <p class="content-example">text-transform: uppercase;</p>
+            <p class="content-display"><span class="uppercase">Uppercase</span> and normal text</p>
+                
+        </section>
+    </div>  
+    <section class="content-title">
+        <h2>PROTOCOLS</h2>
+    </section>
+    <div class="wrapper protocols">  
+       
+        <section class="content-item">
+            <p class="content-name">HTTP methods</p>
+            <p class="content-description">GET - use this type of requests to retrieve resource representation/information only - and not to modify in any way</p>
+            <p class="content-description">POST - used to create a new resource into the collection of resources</p>
+            <p class="content-description">PUT - use it primarily to update existing resource (if the resource does not exist then API may decide to create a new resource or not)</p>
+            <p class="content-description">DELETE - used to delete resources (identified by the request-URI)</p>
+            <p class="content-description">PATCH - HTTP PATCH requests are to make partial update on a resource</p>
+        </section>
+        <section class="content-item">
+            <p class="content-name">HTTP status code</p>
+            <p class="description">1xx: Informational <br>example: 100 Continue</p>
+            <p class="description">2xx: Success <br>example: 201 Created</p>
+            <p class="description">3xx: Redirection <br>example: 301 Moved Permanently</p>
+            <p class="description">4xx: Client Error <br>example: 404 Not Found</p>
+            <p class="description">5xx: Server Error <br>example: 500 Internal Server Error</p>
+        </section>
+        <section class="content-item">
+            <p class="content-name">DNS list by types</p>
+            <p class="content-description">A (Host address) - is used to translate human friendly domain names such as "www.example.com" into IP-addresses such as 23.211.43.53 (machine friendly numbers).</p>
+            <p class="content-description">AAAA (IPv6 host address) - is used to specify the IPv6 address for a host (equivalent of the A-record type for IPv4).</p>
+            <p class="content-description">CNAME (Canonical name for an alias) - specifes a domain name that has to be queried in order to resolve the original DNS query. Therefore CNAME records are used for creating aliases of domain names. CNAME records are truly useful when we want to alias our domain to an external domain. In other cases we can remove CNAME records and replace them with A records and even decrease performance overhead</p>
+            <p class="content-description">HINFO (Host Information records) - used to acquire general information about a host. The record specifes type of CPU and OS. The HINFO record data provides the possibility to use operating system specific protocols when two hosts want to communicate. For security reasons the HINFO records are not typically used on public servers</p>
+            <p class="content-description">ISDN (Integrated Servises Digital Network) - specifies ISDN adress for a host. An ISDN address is a telephone number that consists of a country code, a national destination code, a ISDN Subscriber number and, optionally, a ISDN subadress. The function of the record is only variation of the A resource record function</p>
+            <p class="content-description">MX (Mail exchanger record) - specifies a mail exchange server for a DNS domain name. The information is used by Simple Mail Transfer Protocol (SMTP) to route emails to proper hosts. Typically, there are more than one mail exchange server for a DNS domain and each of them have set priority</p>
+            <p class="content-description">NS (name server) - specifies an authoritative name server for given host</p>
+            <p class="content-description">PTR (Reverse-lookup Pointer records) - As opposed to forward DNS resolution (A and AAAA DNS records), the PTR record is used to look up domain names based on an IP address</p>
+            <p class="content-description">SOA (Start of Authority records) - The record specifies core information about a DNS zone, including the primary name server, the email of the domain administrator, the domain serial number, and several timers relating to refreshing the zone</p>
+            <p class="content-description">TXT (Text records) - The text record can hold arbitrary non-formatted text string. Typically, the record is used by Sender Policy Framework (SPF) to prevent fake emails to appear to be sent by you</p>
+        </section>
+        <section class="content-item">
+            <p class="content-name">Identifying google's IP</p>
+            <p class="content-description">To identify google.com IP follow the next steps:</p>
+            <ol class="content-description">
+                <li>open Terminal</li>
+                <li>paste and run the command nslookup google.com</li>
+            </ol>
+            <p class="content-description">As result, you will receive "name" and "address":</p>
+            <p class="content-description">Name: google.com.ua</p>
+            <p class="content-description">Address: 216.58.215.99</p>
+            <p class="content-description">Repeat steps 1 and 2 to identify google.com.ua IP</p>
+        </section>
+        
+    </div>
+</body>
+</html>

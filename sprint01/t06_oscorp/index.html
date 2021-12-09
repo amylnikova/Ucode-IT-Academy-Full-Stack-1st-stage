@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Buy manga online! Best prices, regular updating of the assortment">
+    <meta name="keywords" content="manga, buy manga, manga comic books, manga catalogue, manga shop, popular manga, manga by genre, manga site">
+    <link rel="stylesheet" href="style.css">
+    <title>Manga shop Homepage</title>
+
+</head>
+<body>
+    <div class="main">
+        <header class="container">
+            <a href="#"><img class="logo" src="assets/images/logo.png" alt="logo"></a>
+            <div class="header">
+                <a href="#">About us</a>
+                <a href="#">Catalogue</a>
+                <a href="#">Phone: 9379992</a>
+            </div>
+            <div class="search">
+                <input type="search" id="search" placeholder="Search..." />
+            </div>
+        </header>
+        <nav class="breadcrumb">
+            <ul class="breadcrumb">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" class="current">Catalogue</a></li>
+            </ul>
+        </nav>
+        <div class="catalogue container">
+            <h1>Catalogue</h1>
+            <div id="myBtnContainer">
+                <button class="btn active"> Show all ✓</button>
+                <button class="btn">Shoujo</button>
+                <button class="btn">Shounen</button>
+                <button class="btn">Thriller</button>
+            </div>
+        </div>
+        <div class="filter container">
+            <div class="origincountry">
+                <p class="origincountry">Country of origin</p>
+                <div class="origincountry">
+                    <input class="checkbox" type="checkbox" id="japan" name="japan" value="yes">
+                    <label for="japan">Japan</label>
+                    <br>
+                    <input class="checkbox" type="checkbox" id="corea" name="corea" value="yes">
+                    <label for="corea">South Corea</label>
+                </div>
+            </div>
+            <div class="pricerange">
+                <p>Price</p>
+                <input type="range" name="price" id="price" min="0" max="500" step="10">
+                <div class="pricenumber">
+                    <span class="zero">0</span>
+                    <span class="max">500</span>
+                </div>
+            </div>
+        </div>
+        <div class="firstcolumn">
+            <div class="img container">
+                <a href="#"><img src="assets/images/skip-beat-manga-cover.png" alt="skip-beat"></a>
+            </div>
+            <div class="info container">
+                <p class="item-name">Skip Beat</p>
+                <p class="price">100$</p>
+                <p class="availability-none">not available</p>
+                <button class="btn">Buy</button>
+            </div>
+        </div>
+        <div class="secondcolumn">
+            <div class="img container">
+                <a href="card.html" target="_blank"><img src="assets/images/OnePunchMan_manga_cover.png" alt=""></a>
+            </div>
+            <div class="info container">
+                    <a href="card.html" target="_blank"><p class="item-name">One Punch Man</p></a>
+                    <p class="price">500$</p>
+                    <p class="availability">available</p>
+                    <button class="btn">Buy</button>
+            </div>
+        </div>
+        <div class="firstcolumn secondrow">
+            <div class="img container">
+                <a href="#"><img src="assets/images/bleach-manga-cover.png" alt="bleach"></a>
+            </div>
+            <div class="info container filterDiv shounen thriller">
+                <p class="item-name">Bleach</p>
+                <p class="price">200$</p>
+                <p class="availability-none">not available</p>
+                <button class="btn">Buy</button>
+            </div>
+        </div>
+        <div class="secondcolumn secondrow">
+            <div class="thirdcolumn img container filterDiv shounen thriller">
+                <a href="#"><img src="assets/images/berserk-manga-cover.png" alt="berserk"></a>
+            </div>
+            <div class="fourthcolumn info container filterDiv shounen thriller">
+                <p class="item-name">Berserk</p>
+                <p class="price">300$</p>
+                <p class="availability">available</p>
+                <button class="btn">Buy</button>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright&copy │ Baachan's Sause │ All Rights Reserved</p>
+            <p>Terms of Service │ Privacy Policy</p>
+        </footer>
+    </div>
+</body>
+</html>

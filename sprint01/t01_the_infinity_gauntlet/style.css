@@ -1,0 +1,10 @@
+img{
+    width: 100px;
+    
+}
+.gauntlet:hover :nth-child(odd){
+    visibility: hidden;
+}
+
+
+    

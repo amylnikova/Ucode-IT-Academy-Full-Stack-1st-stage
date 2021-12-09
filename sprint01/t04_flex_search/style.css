@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flex-container{
+    display: flex;
+    width: 100%;
+}
+.flex-header{
+    text-align: center;
+    margin: 20px;
+}
+.flex-search{
+    color: green;
+    padding: 3px 10px;
+    width: 100%;
+}
+.flex-search::placeholder {
+    color: green;
+}
+button{
+    color: #505050;
+    height: 2em;
+    padding: 0 10px;
+    width: auto;
+
+}

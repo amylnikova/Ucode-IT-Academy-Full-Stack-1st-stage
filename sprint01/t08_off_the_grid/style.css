@@ -1,0 +1,207 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 3px solid black;
+    border-radius: 7px;
+}
+h1 {
+    text-align: center;
+}
+.firstframe {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 80%;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.secondframe{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 90%;
+    padding-left: 5px;
+}
+.thirdframe{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 80%;
+    padding-left: 4px;
+}
+.fourthframe{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+    padding-left: 5px;
+}
+.fifthframe{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    width: 80%;
+    padding-left: 5px;
+}
+.sixthframe{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+    width: 60%;
+}
+.seventhframe{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    width: 100%;
+    padding-left: 5px;
+}
+.eighthframe{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    width: 48.5%;
+}
+.ninethframe{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 60%;
+    padding-left: 5px;
+    padding-bottom: 5px;
+}
+@media screen and (min-width: 640px) {
+    h1 {
+        font-size: 50px;
+    }
+    .firstframe {
+        width: 70%;
+    }
+    .thirdframe{
+        width: 60%;
+    }
+    .fourthframe{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    .fifthframe{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 4;
+        grid-row-end: 5;
+        width: 95%;
+        height: 99.5%;
+        padding: 0;
+    }
+    .sixthframe{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        padding-left: 5px;
+        width: 65%;
+    }
+    .seventhframe{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 6;
+        width: 90%;
+        height: 99.5%;
+        position: relative;
+        left: -230px;
+    }
+    .eighthframe{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        padding-left: 5px;
+        padding-bottom: 5px;
+        width: 40%;
+    }
+    .ninethframe{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        width: 95%;
+        position: relative;
+        left: -400px;
+    }
+}
+@media screen and (min-width: 1366px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    .firstframe {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        padding: 10px 0 0 15px;
+        width: 96%;
+    }
+    .secondframe{
+        grid-column-start: 3;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        padding: 10px 15px 0 0;
+        width: 99%;
+        height: 96%;
+    }
+    .thirdframe{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 2;
+        width: 80%;
+        padding-left: 15px;
+    }
+    .fourthframe{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        width: 130%;
+        position: relative;
+        left: -120px;
+
+    }
+    .fifthframe{
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+        width: 98%;
+        padding-right: 15px;
+    }
+    .sixthframe{
+        grid-column-start:1;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        width: 80%;
+        height: 98%;
+        padding: 0 0 10px 15px;
+    }
+    .seventhframe{
+        grid-column-start: 2;
+        grid-column-end: 3;
+        grid-row-start: 3;
+        position: relative;
+        left: -50px;
+        width: 115%;
+        height: 98%;
+        padding-bottom: 10px;
+    }
+    .eighthframe{
+        grid-column-start: 3;
+        grid-column-end: 4;
+        grid-row-start: 3;
+        width: 50%;
+        height: 98%;
+        padding: 0 0 10px 0;
+        position: relative;
+        left: 80px;
+    }
+    .ninethframe{
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        width: 120%;
+        padding: 0 15px 10px 0;
+        position: relative;
+        left: -78px;
+    }
+}

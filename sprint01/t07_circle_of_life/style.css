@@ -1,0 +1,33 @@
+
+body{
+    width: 100%;
+}
+.greencircle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: seagreen;
+    animation: greencircle 1s linear alternate infinite;
+    -webkit-animation: greencircle 1s linear alternate infinite;
+}
+@keyframes greencircle {
+    100% {
+        transform: translateX(100%);
+    }
+    0% {
+        transform: translateX(0%);
+    }
+}
+@-webkit-keyframes greencircle {
+    100% {
+        transform: translateX(100%);
+    }
+    0% {
+        transform: translateX(0%);
+    }
+}
+.greencircle:hover {
+    transition: 2s;
+    background-color: #ec3625;
+    animation-play-state: paused;
+}
