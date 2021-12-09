@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.colortext{
+    color: green;
+    padding: 0 10px;
+    width: 100%;
+}
+.button{
+    color: green;
+    height: 2em;
+    padding: 0 10px;
+    width: auto;
+
+}
+input:hover {
+    color: red;
+}
+button:hover{
+    color: red;
+}
+.supercontroller{
+    display: flex;
+    width: 100%;
+}

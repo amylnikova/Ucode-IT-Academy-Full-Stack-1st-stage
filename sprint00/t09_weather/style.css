@@ -1,0 +1,27 @@
+div{
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 0 0 10px 0;
+    line-height: 20px;
+    
+}
+div:hover{
+    box-shadow: 0 0 5px 1px grey;
+}        
+.date{
+    font-weight: bold;
+    font-size: 1.5em;
+    background-color: #4095b5;
+    color: #fff;    
+    margin: 0;
+}
+.temperature{
+    font-size: 2em;    
+    margin: 0;
+}
+img{
+    margin: 0 0 15px 0;
+}

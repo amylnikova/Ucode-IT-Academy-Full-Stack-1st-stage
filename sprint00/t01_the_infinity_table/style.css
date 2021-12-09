@@ -1,0 +1,76 @@
+table {
+    border-color: #f3f3f3;
+    width: 1050px;
+    font-size: 14px;
+    border-collapse: collapse;
+    font-weight: lighter;
+    
+}
+
+
+img {
+    border-radius: 20%;
+    height: 120px;
+    width: 120px;
+    padding: auto;
+}
+
+thead{
+    background-color: black;
+    color: white;
+    
+} 
+th{
+    font-weight: lighter;
+    
+}
+.name{
+    width: 70px;
+    
+}  
+.color{
+    width: 70px;
+}
+.capabilities{
+    height: 120px;
+    padding: 20px 15px;
+    
+}
+.soul{
+    background-color: #d7923e;
+    border: 1px solid #f3f3f3;
+    padding: 0px 15px;
+}   
+.time{
+    background-color: #027f01;
+    border: 1px solid #f3f3f3;
+    padding: 0px 15px;
+}
+.space{
+    background-color: #005792;
+    border: 1px solid #f3f3f3;
+    padding: 0px 15px;
+}
+.mind{
+    background-color: #feff03;
+    border: 1px solid #f3f3f3;
+    padding: 0px 15px;
+}
+.reality{
+    background-color: #c12b2f;
+    border: 1px solid #f3f3f3;
+    padding: 0px 15px;
+    
+}
+.power{
+    background-color: #8175b7;
+    border: 1px solid #f3f3f3;
+    padding: 0px 15px;
+}
+tfoot{
+    border: 1px solid #f3f3f3;
+    
+}
+.footer{
+    padding: 10px 0 10px 0;
+}

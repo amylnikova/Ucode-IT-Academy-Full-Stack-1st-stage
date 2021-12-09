@@ -1,0 +1,20 @@
+#rainbow-block{
+    height: 100px;
+    width: 100%;
+     /* Old browsers */
+    background: -moz-linear-gradient(left, #ec3625 0%, #f3a43b 14%, #dde023 28%, #359329 42%, #2ad4dd 58%, #2f25c4 72%, #491380 85%, #eab0ef 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #ec3625 0%,#f3a43b 14%,#dde023 28%,#359329 42%,#2ad4dd 58%,#2f25c4 72%,#491380 85%,#eab0ef 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #ec3625 0%,#f3a43b 14%,#dde023 28%,#359329 42%,#2ad4dd 58%,#2f25c4 72%,#491380 85%,#eab0ef 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ec3625', endColorstr='#eab0ef',GradientType=1 ); /* IE6-9 */
+    position: relative;
+}
+#horn-block{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 50px 100px 50px;
+    border-color: transparent transparent #7f7f7f transparent;
+    position: absolute;
+    left: 100px;
+    top: 140px;
+}
