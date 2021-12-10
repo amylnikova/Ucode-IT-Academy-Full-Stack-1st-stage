@@ -1,0 +1,45 @@
+.btns {
+    width: 467px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 10px 20px;
+    
+}
+.add-btn {
+    padding: 10px;
+    background-color:#65cecb;
+    border: 1px solid #65cecb;
+    border-radius: 5px;
+    color: #fff;
+}
+.clear-btn {
+    padding: 10px;
+    background-color:#f0f0f0;
+    border: 1px solid #f0f0f0;
+    border-radius: 5px;
+    color: #000;
+}
+.input {
+    width: fit-content;
+    padding: 20px;
+    margin: 0 0 10px 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+.archive{
+    width: fit-content;
+    padding: 20px;
+    margin-left: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+
+#textInput {
+    border: 2px solid #65cecb;
+    border-radius: 5px;
+}
+
+#notesArchive {
+    border: none;
+    border-radius: 5px;
+}
